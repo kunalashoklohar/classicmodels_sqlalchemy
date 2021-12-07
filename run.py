@@ -15,5 +15,7 @@ result = session.query(Customers)
 
 print("--------------------Customers----------------")
 
-for r in result:
-    print(r)
+print(dir(result))
+print(result)
+# for r in result:
+#     print(r)
