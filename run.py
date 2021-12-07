@@ -11,7 +11,7 @@ session = Session()
 
 result = session.query(Customers)
 
-# print(dir(session))
+print(dir(session))
 
 print("--------------------Customers----------------")
 
